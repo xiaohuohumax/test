@@ -1,0 +1,24 @@
+{
+  "name": "test-custom-action-release",
+  "private": true,
+  "version": "3.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "prettier": "^2.8.8",
+    "rollup": "^4.13.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "vite-node": "^1.3.1"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.5.0",
+    "@changesets/cli": "^2.27.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
