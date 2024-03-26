@@ -28,6 +28,7 @@ jobs:
         with:
           commit: "chore(release): Publish"
           title: "chore(release): Publish"
+          publish: npx changeset tag
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -35,28 +36,28 @@ jobs:
         if: steps.changeset.outputs.published == 'true'
         run: echo "Changeset published, proceeding with release..."
 
-      - name: Build your project (example)
-        run: npm run build
+      # - name: Build your project (example)
+      #   run: npm run build
 
-      - name: Determine new version
-        if: steps.changeset.outputs.published == 'true'
-        id: version
-        run: |
-          echo "::set-output name=new_version::$(node -p "require('./package.json').version")"
+      # - name: Determine new version
+      #   if: steps.changeset.outputs.published == 'true'
+      #   id: version
+      #   run: |
+      #     echo "::set-output name=new_version::$(node -p "require('./package.json').version")"
 
-      - name: Create Git Tag
-        if: steps.changeset.outputs.published == 'true'
-        run: |
-          git tag "v${{ steps.version.outputs.new_version }}"  
-          git push origin "v${{ steps.version.outputs.new_version }}"
+      # - name: Create Git Tag
+      #   if: steps.changeset.outputs.published == 'true'
+      #   run: |
+      #     git tag "v${{ steps.version.outputs.new_version }}"  
+      #     git push origin "v${{ steps.version.outputs.new_version }}"
 
-      - name: Create GitHub Release
-        if: steps.changeset.outputs.published == 'true'
-        uses: softprops/action-gh-release@v2
-        with:
-          files: |
-            dist/*
-          body_path: CHANGELOG.md
-          tag_name: v${{ steps.version.outputs.new_version }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # - name: Create GitHub Release
+      #   if: steps.changeset.outputs.published == 'true'
+      #   uses: softprops/action-gh-release@v2
+      #   with:
+      #     files: |
+      #       dist/*
+      #     body_path: CHANGELOG.md
+      #     tag_name: v${{ steps.version.outputs.new_version }}
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
