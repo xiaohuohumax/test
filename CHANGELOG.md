@@ -1,5 +1,11 @@
 # test-custom-action-release
 
+## 3.0.4
+
+### Patch Changes
+
+- [`039866f`](https://github.com/xiaohuohumax/test/commit/039866f6f10d6dafee4c29f33b07d06e515e5372) Thanks [@xiaohuohumax](https://github.com/xiaohuohumax)! - test custom changeset
+
 ## 3.0.3
 
 ### Patch Changes
