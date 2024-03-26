@@ -1,5 +1,15 @@
 # test-custom-action-release
 
+## 3.1.0
+
+### Minor Changes
+
+- [`2f58b3b`](https://github.com/xiaohuohumax/test/commit/2f58b3b7f27852da18c374e78acada8ba3ece594) Thanks [@xiaohuohumax](https://github.com/xiaohuohumax)! - private
+
+### Patch Changes
+
+- [`e3e1a97`](https://github.com/xiaohuohumax/test/commit/e3e1a9743afc6fe8c42bf97da1440901be9d2141) Thanks [@xiaohuohumax](https://github.com/xiaohuohumax)! - add version
+
 ## 3.0.5
 
 ### Patch Changes
