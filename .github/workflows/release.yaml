@@ -26,6 +26,7 @@ jobs:
         id: changeset
         uses: changesets/action@v1
         with:
+          version: patch
           commit: "chore(release): Publish"
           title: "chore(release): Publish"
           publish: changesets/publish
