@@ -1,5 +1,11 @@
 # test-custom-action-release
 
+## 3.3.0
+
+### Minor Changes
+
+- [`ba6cb3d`](https://github.com/xiaohuohumax/test/commit/ba6cb3d3215a039911ef35462105095949404015) Thanks [@xiaohuohumax](https://github.com/xiaohuohumax)! - show release url
+
 ## 3.2.0
 
 ### Minor Changes
