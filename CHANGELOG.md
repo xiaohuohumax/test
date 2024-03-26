@@ -1,5 +1,11 @@
 # test-custom-action-release
 
+## 3.0.5
+
+### Patch Changes
+
+- [`528b6d6`](https://github.com/xiaohuohumax/test/commit/528b6d6a51ba22025a248fa1bc5d2aafb160d4b7) Thanks [@xiaohuohumax](https://github.com/xiaohuohumax)! - add publish command
+
 ## 3.0.4
 
 ### Patch Changes
