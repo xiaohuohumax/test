@@ -1,5 +1,11 @@
 # test-custom-action-release
 
+## 3.2.0
+
+### Minor Changes
+
+- [`7c02626`](https://github.com/xiaohuohumax/test/commit/7c026260ba24175a0739c9f89b8495071fb8ea48) Thanks [@xiaohuohumax](https://github.com/xiaohuohumax)! - changeset tag
+
 ## 3.1.0
 
 ### Minor Changes
