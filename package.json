@@ -1,7 +1,7 @@
 {
   "name": "test-custom-action-release",
   "private": true,
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "",
   "type": "module",
   "main": "index.js",

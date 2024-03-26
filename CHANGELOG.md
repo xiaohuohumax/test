@@ -1,5 +1,11 @@
 # test-custom-action-release
 
+## 3.0.3
+
+### Patch Changes
+
+- [`0a8d512`](https://github.com/xiaohuohumax/test/commit/0a8d512792a6f22c9607f069bb2d13c91034cba2) Thanks [@xiaohuohumax](https://github.com/xiaohuohumax)! - test changeset file change
+
 ## 3.0.2
 
 ### Patch Changes
