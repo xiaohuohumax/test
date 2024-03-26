@@ -3,6 +3,7 @@
   "private": true,
   "version": "3.0.1",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "dependencies": {
     "prettier": "^2.8.8",
@@ -16,7 +17,9 @@
     "@changesets/cli": "^2.27.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "release": "pnpm build && changeset publish"
   },
   "keywords": [],
   "author": "",

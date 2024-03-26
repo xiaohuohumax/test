@@ -28,6 +28,6 @@ jobs:
         with:
           commit: "chore(release): Publish"
           title: "chore(release): Publish"
-          publish: npx changeset publish
+          publish: npm run release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
