@@ -33,7 +33,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Check if changeset was published
-        run: echo {{ steps.changeset.outputs }}
+        run: echo ${{ steps.changeset.outputs }}
 
       # - name: Build your project (example)
       #   run: npm run build
